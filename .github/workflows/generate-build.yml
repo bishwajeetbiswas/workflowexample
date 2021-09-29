@@ -36,6 +36,3 @@ jobs:
         with:
           name: Build Artifacts
           path: app/build/outputs/
-      - name: Tag Release
-          run: |
-            echo "Hello ${{ github.event.inputs.versionName }}!"
